@@ -33,6 +33,7 @@ The rest is based on JetBrains's Darcula theme, I got most of the starting setti
 |                 Rust                 |     ✔️    |          ✔️           |
 |                  SQL                 |     ✔️    |          ❌           |
 |                 Swift                |     ✔️    |          ❌           |
+|                 TOML                 |     ✔️    |          ❌           |
 |                Unison                |     ✔️    |          ❌           |
 |                  Xi                  |     ✔️    |          ❌           |
 |                 YAML                 |     ✔️    |          ❌           |

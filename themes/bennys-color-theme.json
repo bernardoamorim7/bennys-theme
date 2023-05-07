@@ -180,7 +180,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#a9b7c6"
 			}
 		},
 		{
@@ -819,7 +819,7 @@
 		},
 		{
 			"name": "c++",
-			"scope": "keyword.control.directive.pragma.cpp,keyword.control.directive.include.cpp, punctuation.definition.directive.cpp",
+			"scope": "keyword.control.directive.pragma.cpp,keyword.control.directive.include.cpp, punctuation.definition.directive.cpp, keyword.control.directive.include.c, punctuation.definition.directive.c",
 			"settings": {
 				"foreground": "#BBB529"
 			}
@@ -931,6 +931,15 @@
 			}
 		},
 		// CSS
+		{
+			"name": "CSS @",
+			"scope": [
+				"punctuation.definition.keyword.css"
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
 		{
 			"name": "CSS Class and Support",
 			"scope": [
@@ -1337,6 +1346,13 @@
 			}
 		},
 		// JavaScript / JS / TypeScript / TS / JSX / JSON
+		{
+			"name": "js decorator",
+			"scope": "punctuation.decorator.js, punctuation.decorator.ts",
+			"settings": {
+				"foreground": "#BBB529"
+			}
+		},
 		{
 			"name": "js/ts module",
 			"scope": "support.module.node,support.type.object.module,support.module.node",
@@ -2302,7 +2318,10 @@
 		},
 		{
 			"name": "python decorator",
-			"scope": "entity.name.function.decorator.python",
+			"scope": [
+				"entity.name.function.decorator.python",
+				"punctuation.definition.decorator.python"
+			],
 			"settings": {
 				"foreground": "#BBB529"
 			}
@@ -2617,7 +2636,43 @@
 				"foreground": "#CC7832"
 			}
 		},
+		{
+			"name": "rust operator question ?",
+			"scope": [
+				"keyword.operator.question.rust"
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		// {
+		// 	"name": "rust operator arrow fat",
+		// 	"scope": [
+		// 		"keyword.operator.arrow.fat.rust"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#CC7832"
+		// 	}
+		// },
+		// {
+		// 	"name": "rust operator arrow skinny",
+		// 	"scope": [
+		// 		"keyword.operator.arrow.skinny.rust"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#CC7832"
+		// 	}
+		// },
 		// SQL
+		{
+			"name": "SQL Source",
+			"scope": [
+				"source.sql"
+			],
+			"settings": {
+				"foreground": "#9876AA"
+			}
+		},
 		{
 			"name": "SQL Variables",
 			"scope": [
@@ -2771,6 +2826,13 @@
 			"scope": "punctuation.definition.block.sequence.item.yaml",
 			"settings": {
 				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "yaml alias",
+			"scope": "variable.other.alias.yaml",
+			"settings": {
+				"foreground": "#FFC66D"
 			}
 		},
 	],

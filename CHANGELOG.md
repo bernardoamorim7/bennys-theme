@@ -4,6 +4,16 @@ All notable changes to the "bennys-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## v0.0.4
+
+- Better YAML support
+- Better Python support
+- Better C/C++ support
+- Better SQL support
+- Better CSS support
+- Better JS/TS support
+- Verified TOML support
+
 ## v0.0.3
 
 - Fix "punctuation.section.embedded.rust
