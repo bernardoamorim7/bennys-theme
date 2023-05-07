@@ -1,0 +1,33 @@
+{
+  "name": "bennys-theme",
+  "displayName": "Benny's Theme",
+  "description": "My personal theme with Color Theme and Product Icons (Intellisense)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Benny's Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bennys-color-theme.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "bennys-product-icons-theme",
+        "label": "Benny's Product Icons Theme",
+        "path": "./producticons/bennys-product-icons-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[rust]": {
+        "editor.semanticHighlighting.enabled": true
+      }
+    }
+  }
+}
