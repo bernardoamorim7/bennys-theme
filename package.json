@@ -2,7 +2,13 @@
   "name": "bennys-theme",
   "displayName": "Benny's Theme",
   "description": "My personal theme with Color Theme and Product Icons (Intellisense)",
-  "version": "0.0.1",
+  "publisher": "bernardoamorim7",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/bernardoamorim7/bennys-theme"
+  },
+  "icon": "icon.ico",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.78.0"
   },
