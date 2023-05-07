@@ -818,15 +818,39 @@
 			}
 		},
 		{
-			"name": "c++",
-			"scope": "keyword.control.directive.pragma.cpp,keyword.control.directive.include.cpp, punctuation.definition.directive.cpp, keyword.control.directive.include.c, punctuation.definition.directive.c",
+			"name": "c/cpp include define ifndef",
+			"scope": [
+				"keyword.control.directive.pragma.cpp",
+				"keyword.control.directive.include.cpp",
+				"punctuation.definition.directive.cpp",
+				"keyword.control.directive.include.c",
+				"punctuation.definition.directive.c",
+				"keyword.control.directive.define.cpp",
+				"keyword.control.directive.conditional.if.cpp",
+				"keyword.control.directive.conditional.ifdef.cpp",
+				"keyword.control.directive.endif.cpp",
+				"keyword.control.directive.define.c",
+				"keyword.control.directive.conditional.c",
+			],
 			"settings": {
 				"foreground": "#BBB529"
 			}
 		},
 		{
 			"name": "c++ block",
-			"scope": "punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c,entity.other.attribute-name.pragma.preprocessor.cpp",
+			"scope": [
+				"punctuation.section.block.begin.bracket.curly.cpp",
+				"punctuation.section.block.end.bracket.curly.cpp",
+				"punctuation.terminator.statement.c",
+				"punctuation.section.block.begin.bracket.curly.c",
+				"punctuation.section.block.end.bracket.curly.c",
+				"punctuation.section.parens.begin.bracket.round.c",
+				"punctuation.section.parens.end.bracket.round.c",
+				"punctuation.section.parameters.begin.bracket.round.c",
+				"punctuation.section.parameters.end.bracket.round.c",
+				"entity.other.attribute-name.pragma.preprocessor.cpp",
+				"meta.tail.struct.cpp"
+			],
 			"settings": {
 				"foreground": "#abb2bf"
 			}
@@ -861,7 +885,11 @@
 		},
 		{
 			"name": "variable.other.member.c",
-			"scope": "variable.other.member.c, variable.other.member.cpp",
+			"scope": [
+				"variable.other.member.c",
+				"variable.other.member.cpp",
+				"variable.other.enummember.cpp",
+			],
 			"settings": {
 				"foreground": "#9876AA"
 			}
@@ -881,6 +909,25 @@
 			],
 			"settings": {
 				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "cpp namespace",
+			"scope": [
+				"entity.name.namespace.cpp",
+				"entity.name.type.namespace.cpp",
+			],
+			"settings": {
+				"foreground": "#c3c3e4"
+			}
+		},
+		{
+			"name": "cpp bitwise operator",
+			"scope": [
+				"keyword.operator.bitwise.shift.cpp",
+			],
+			"settings": {
+				"foreground": "#5F8C8A"
 			}
 		},
 		// C# / CS
