@@ -2608,6 +2608,15 @@
 				"foreground": "#6A8759"
 			}
 		},
+		{
+			"name": "rust punctuation.section.embedded",
+			"scope": [
+				"punctuation.section.embedded.rust"
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
 		// SQL
 		{
 			"name": "SQL Variables",
