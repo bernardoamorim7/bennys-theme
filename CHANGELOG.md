@@ -4,6 +4,11 @@ All notable changes to the "bennys-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## v0.0.6
+
+- Better C/C++ support
+- Removed tests folder from extension
+
 ## v0.0.5
 
 - Better C/C++ support

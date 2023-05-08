@@ -762,6 +762,7 @@
 				"meta.preprocessor.macro.c",
 				"meta.parens.block.c",
 				"meta.block.c",
+				"variable.parameter.cpp",
 				//"variable.other.property.c"
 			],
 			"settings": {
@@ -928,6 +929,15 @@
 			],
 			"settings": {
 				"foreground": "#5F8C8A"
+			}
+		},
+		{
+			"name": "cpp object acess",
+			"scope": [
+				"variable.other.object.access.cpp",
+			],
+			"settings": {
+				"foreground": "#9876AA"
 			}
 		},
 		// C# / CS
