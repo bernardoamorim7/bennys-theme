@@ -734,6 +734,8 @@
 			"scope": [
 				"meta.function.c",
 				"meta.function-call.c",
+				"meta.function-call.cpp",
+				"meta.function.cpp",
 			],
 			"settings": {
 				"foreground": "#e5c07b"
@@ -756,14 +758,18 @@
 				"variable.other.constant.cpp",
 				"variable.cpp",
 				"source.cpp.arduino",
-				"variable.other.readwrite.c",
-				"variable.other.readwrite.cpp",
+				// "variable.other.readwrite.c",
+				// "variable.other.readwrite.cpp",
 				"variable.parameter.preprocessor.c",
 				"meta.preprocessor.macro.c",
 				"meta.parens.block.c",
 				"meta.block.c",
 				"variable.parameter.cpp",
-				//"variable.other.property.c"
+				// "variable.other.property.c"
+				"source.cpp",
+				"source.cpp.arduino",
+				"entity.name.variable.cpp",
+				"meta.body.function.definition.cpp"
 			],
 			"settings": {
 				"foreground": "#abb2bf"
@@ -932,9 +938,10 @@
 			}
 		},
 		{
-			"name": "cpp object acess",
+			"name": "cpp object, object acess",
 			"scope": [
 				"variable.other.object.access.cpp",
+				"variable.other.object.cpp",
 			],
 			"settings": {
 				"foreground": "#9876AA"
@@ -1334,7 +1341,7 @@
 		},
 		{
 			"name": "java modifier.import",
-			"scope": "punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,punctuation.bracket.angle.java,punctuation.definition.annotation.java,meta.method.body.java",
+			"scope": "punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,punctuation.bracket.angle.java,meta.method.body.java",
 			"settings": {
 				"foreground": "#abb2bf"
 			}
@@ -1400,6 +1407,45 @@
 			"scope": "constant.other.enum.java",
 			"settings": {
 				"foreground": "#9876AA"
+			}
+		},
+		{
+			"name": "java decorator / annotation",
+			"scope": [
+				"punctuation.definition.annotation.java",
+				"storage.type.annotation.java"
+			],
+			"settings": {
+				"foreground": "#BBB529",
+			}
+		},
+		{
+			"name": "java semicolon",
+			"scope": [
+				"punctuation.terminator.java"
+			],
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
+		{
+			"name": "java type",
+			"scope": [
+				"storage.type.java",
+				"storage.type.generic.java"
+			],
+			"settings": {
+				"foreground": "#507874",
+			}
+		},
+		{
+			"name": "javadoc keyword",
+			"scope": [
+				"keyword.other.documentation.javadoc.java"
+			],
+			"settings": {
+				"foreground": "#5c6370",
+				"fontStyle": "underline"
 			}
 		},
 		// JavaScript / JS / TypeScript / TS / JSX / JSON
@@ -1509,7 +1555,14 @@
 		},
 		{
 			"name": "js/ts variables",
-			"scope": "variable.other.constant,variable.other.readwrite,variable.object.property",
+			"scope": [
+				"variable.other.constant.js",
+				"variable.other.readwrite.js",
+				"variable.object.property.js",
+				"variable.other.constant.ts",
+				"variable.other.readwrite.ts",
+				"variable.object.property.ts"
+			],
 			"settings": {
 				"foreground": "#9876AA"
 			}
@@ -2897,6 +2950,8 @@
 	"semanticHighlighting": false,
 	// Semantic Highlighting Token Colors
 	"semanticTokenColors": {
+		// Java Semantic Highlighting
+
 		// Rust Semantic Highlighting
 		"*.attribute:rust": {
 			"foreground": "#BBB529"

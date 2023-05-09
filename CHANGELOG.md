@@ -4,6 +4,11 @@ All notable changes to the "bennys-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## v0.0.7
+
+- Better C/C++ support
+- Better Java support
+
 ## v0.0.6
 
 - Better C/C++ support
