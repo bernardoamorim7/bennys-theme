@@ -8,7 +8,7 @@
     "url": "https://github.com/bernardoamorim7/bennys-theme"
   },
   "icon": "icon.ico",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "engines": {
     "vscode": "^1.78.0"
   },
@@ -31,6 +31,12 @@
       }
     ],
     "configurationDefaults": {
+      "[java]": {
+        "editor.semanticHighlighting.enabled": true
+      },
+      "[python]": {
+        "editor.semanticHighlighting.enabled": true
+      },
       "[rust]": {
         "editor.semanticHighlighting.enabled": true
       }

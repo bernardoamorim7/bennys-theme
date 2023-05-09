@@ -23,12 +23,12 @@ The rest is based on JetBrains's Darcula theme, I got most of the starting setti
 |                Haskell               |     ✔️    |          ❌           |
 |                 HLSL                 |     ✔️    |          ❌           |
 |                 HTML                 |     ✔️    |          ❌           |
-|                 Java                 |     ✔️    |          ❌           |
+|                 Java                 |     ✔️    |          ✔️           |
 | JavaScript / TypeScript / JSX / JSON |     ✔️    |          ❌           |
 |               Makefile               |     ✔️    |          ❌           |
 |               Markdown               |     ✔️    |          ❌           |
 |                  PHP                 |     ✔️    |          ❌           |
-|                Python                |     ✔️    |          ❌           |
+|                Python                |     ✔️    |          ✔️           |
 |                 Ruby                 |     ✔️    |          ❌           |
 |                 Rust                 |     ✔️    |          ✔️           |
 |                  SQL                 |     ✔️    |          ❌           |
