@@ -4,6 +4,13 @@ All notable changes to the "bennys-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.9
+
+- Verified CMake support
+- Better SQL support
+- Better TOML support
+- Better YAML support
+
 ## 0.0.8
 
 - Better C/C++ support

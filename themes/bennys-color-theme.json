@@ -943,6 +943,14 @@
 				"foreground": "#9876AA"
 			}
 		},
+		// CMake
+		{
+			"name": "cmake source",
+			"scope": "source.cmake",
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
 		// C# / CS
 		{
 			"name": "parameter function ruby cs",
@@ -2798,6 +2806,24 @@
 				"foreground": "#e06c75"
 			}
 		},
+		{
+			"name": "sql table name",
+			"scope": [
+				"constant.other.table-name.sql"
+			],
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
+		{
+			"name": "sql database name",
+			"scope": [
+				"constant.other.database-name.sql"
+			],
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
 		// Swift
 		{
 			"name": "types",
@@ -2807,6 +2833,34 @@
 			],
 			"settings": {
 				"foreground": "#e5c07b"
+			}
+		},
+		// TOML
+		{
+			"name": "toml source",
+			"scope": [
+				"source.toml"
+			],
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
+		{
+			"name": "toml datetime with timezone",
+			"scope": [
+				"constant.other.datetime-with-timezone.toml"
+			],
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
+		{
+			"name": "toml boolean",
+			"scope": [
+				"constant.other.boolean.toml"
+			],
+			"settings": {
+				"foreground": "#abb2bf",
 			}
 		},
 		// Unison
@@ -2948,6 +3002,16 @@
 			"scope": "variable.other.alias.yaml",
 			"settings": {
 				"foreground": "#FFC66D"
+			}
+		},
+		{
+			"name": "yaml string unquoted block and unquoted plain.out",
+			"scope": [
+				"string.unquoted.block.yaml",
+				"string.unquoted.plain.out.yaml"
+			],
+			"settings": {
+				"foreground": "#abb2bf",
 			}
 		},
 	],
