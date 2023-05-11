@@ -1104,6 +1104,15 @@
 				"foreground": "#CC7832"
 			}
 		},
+		{
+			"name": "css property name",
+			"scope": [
+				"meta.property-name.css"
+			],
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
 		// Clojure
 		{
 			"name": "Clojure globals",
@@ -1424,9 +1433,10 @@
 			}
 		},
 		{
-			"name": "java semicolon",
+			"name": "java semicolon and colon",
 			"scope": [
-				"punctuation.terminator.java"
+				"punctuation.terminator.java",
+				"punctuation.separator.delimiter.java"
 			],
 			"settings": {
 				"foreground": "#CC7832",
@@ -1435,7 +1445,7 @@
 		{
 			"name": "java type",
 			"scope": [
-				"storage.type.java",
+				// "storage.type.java",
 				"storage.type.generic.java"
 			],
 			"settings": {
@@ -3102,6 +3112,12 @@
 		"*.static:java": {
 			"foreground": "#9876AA",
 			"fontStyle": "italic bold"
+		},
+		"method:java": {
+			"foreground": "#e5c07b"
+		},
+		"parameter:java": {
+			"foreground": "#abb2bf"
 		},
 		// Python Semantic Highlighting
 		"*.builtin:python": {

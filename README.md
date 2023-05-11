@@ -5,6 +5,8 @@ Background is based is [GitHub's dark theme](https://marketplace.visualstudio.co
 Product Icons are from [Material Product Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-product-icons).  
 The rest is based on JetBrains's Darcula theme, I got most of the starting settings from [JetBrains Darcula Theme](https://marketplace.visualstudio.com/items?itemName=Anan.jetbrains-darcula-theme).  
 
+Remember that Semantic Highlighting takes a bit to load, so if you don't see it right away, just wait a bit.
+
 ---
 
 ## Languages
