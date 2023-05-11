@@ -194,7 +194,7 @@
 			}
 		},
 		{
-			"name": "General Keyword, Storage",
+			"name": "General Keyword, Type, Storage",
 			"scope": [
 				"keyword",
 				"storage.type",
@@ -2222,6 +2222,17 @@
 				"foreground": "#FFCB6B",
 			}
 		},
+		{
+			"name": "html text",
+			"scope": [
+				"text.html",
+				"text.html.basic",
+				"text.html.jinja"
+			],
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
 		// PHP
 		{
 			"name": "Class name php",
@@ -2546,7 +2557,43 @@
 			"name": "Regular Expressions",
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#6897BB"
+				"foreground": "#6A8759"
+			}
+		},
+		{
+			"name": "regex punctuation",
+			"scope": [
+				"punctuation.definition.character-class.regexp",
+			],
+			"settings": {
+				"foreground": "#E8BF6A",
+			}
+		},
+		{
+			"name": "regex range",
+			"scope": [
+				"constant.other.character-class.range.regexp",
+			],
+			"settings": {
+				"foreground": "#6A8759",
+			}
+		},
+		{
+			"name": "regex meta.group.regexp",
+			"scope": [
+				"meta.group.regexp",
+			],
+			"settings": {
+				"foreground": "#A9B7C6",
+			}
+		},
+		{
+			"name": "regex punctuation.definition.group.regexp",
+			"scope": [
+				"punctuation.definition.group.regexp",
+			],
+			"settings": {
+				"foreground": "#E8BF6A",
 			}
 		},
 		// Ruby
