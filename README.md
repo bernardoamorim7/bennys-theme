@@ -20,12 +20,14 @@ Remember that Semantic Highlighting takes a bit to load, so if you don't see it 
 |                  CSS                 |     ✔️    |          ❌           |
 |                Closuje               |     ✔️    |          ❌           |
 |             CoffeeScript             |     ✔️    |          ❌           |
+|          Docker / Dockerfile         |     ✔️    |          ❌           |
 |                Elixir                |     ✔️    |          ❌           |
 |                  Go                  |     ✔️    |          ❌           |
 |                Groovy                |     ✔️    |          ❌           |
 |                Haskell               |     ✔️    |          ❌           |
 |                 HLSL                 |     ✔️    |          ❌           |
 |                 HTML                 |     ✔️    |          ❌           |
+|                  ini                 |     ✔️    |          ❌           |
 |                 Java                 |     ✔️    |          ✔️           |
 | JavaScript / TypeScript / JSX / JSON |     ✔️    |          ❌           |
 |               Makefile               |     ✔️    |          ❌           |

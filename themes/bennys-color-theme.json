@@ -74,7 +74,7 @@
 		"statusBar.background": "#24292e",
 		"statusBar.border": "#1b1f23",
 		"statusBar.noFolderBackground": "#24292e",
-		"statusBar.debuggingBackground": "#931c06",
+		"statusBar.debuggingBackground": "#ffab70",
 		"statusBar.debuggingForeground": "#fff",
 		"statusBarItem.prominentBackground": "#282e34",
 		"editorGroupHeader.tabsBackground": "#1f2428",
@@ -1152,6 +1152,16 @@
 				"foreground": "#e06c75"
 			}
 		},
+		// Docker, dockerfile
+		{
+			"name": "dockerfile source",
+			"scope": [
+				"source.dockerfile"
+			],
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
 		// Elixir
 		{
 			"scope": [
@@ -1880,6 +1890,33 @@
 			],
 			"settings": {
 				"foreground": "#e5c07b"
+			}
+		},
+		{
+			"name": "makefile punctuation variable definition",
+			"scope": [
+				"punctuation.definition.variable.makefile"
+			],
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
+		{
+			"name": "makefile variable",
+			"scope": [
+				"variable.other.makefile"
+			],
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
+		{
+			"name": "makefile error",
+			"scope": [
+				"support.function.error.makefile"
+			],
+			"settings": {
+				"foreground": "#CC7832"
 			}
 		},
 		// Markdown, Markup, MD, diff, HTML
