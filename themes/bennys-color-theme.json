@@ -770,7 +770,8 @@
 				"source.cpp",
 				"source.cpp.arduino",
 				"entity.name.variable.cpp",
-				"meta.body.function.definition.cpp"
+				"meta.body.function.definition.cpp",
+				"entity.name.variable.c"
 			],
 			"settings": {
 				"foreground": "#abb2bf"
@@ -806,7 +807,20 @@
 		},
 		{
 			"name": "C operator assignment",
-			"scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,punctuation.terminator.statement.cpp",
+			"scope": [
+				"keyword.operator.assignment.c",
+				"keyword.operator.comparison.c",
+				"keyword.operator.c",
+				"keyword.operator.increment.c",
+				"keyword.operator.decrement.c",
+				"keyword.operator.bitwise.shift.c",
+				"keyword.operator.assignment.cpp",
+				"keyword.operator.comparison.cpp",
+				"keyword.operator.cpp",
+				"keyword.operator.increment.cpp",
+				"keyword.operator.decrement.cpp",
+				"punctuation.terminator.statement.cpp"
+			],
 			"settings": {
 				"foreground": "#CC7832"
 			}
@@ -857,12 +871,15 @@
 			}
 		},
 		{
-			"name": "Other punctuation .c",
+			"name": "c, cpp separator and terminator punctuation .c .cpp",
 			"scope": [
 				"punctuation.separator.c",
 				"punctuation.separator.cpp",
 				"punctuation.separator.delimiter.comma.cpp",
 				"punctuation.terminator.statement.cpp",
+				"punctuation.terminator.statement.c",
+				"punctuation.separator.delimiter.c",
+				"punctuation.separator.pointer-access.c"
 			],
 			"settings": {
 				"foreground": "#CC7832"
@@ -936,6 +953,7 @@
 			"scope": [
 				"variable.other.object.access.cpp",
 				"variable.other.object.cpp",
+				"variable.other.object.access.c"
 			],
 			"settings": {
 				"foreground": "#9876AA"
