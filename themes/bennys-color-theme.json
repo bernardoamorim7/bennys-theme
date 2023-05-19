@@ -812,13 +812,6 @@
 			}
 		},
 		{
-			"name": "Other punctuation .c",
-			"scope": "punctuation.separator.c,punctuation.separator.cpp",
-			"settings": {
-				"foreground": "#CC7832"
-			}
-		},
-		{
 			"name": "c++ function",
 			"scope": "meta.function.cpp",
 			"settings": {
@@ -865,7 +858,12 @@
 		},
 		{
 			"name": "Other punctuation .c",
-			"scope": "punctuation.separator.c,punctuation.separator.cpp",
+			"scope": [
+				"punctuation.separator.c",
+				"punctuation.separator.cpp",
+				"punctuation.separator.delimiter.comma.cpp",
+				"punctuation.terminator.statement.cpp",
+			],
 			"settings": {
 				"foreground": "#CC7832"
 			}
@@ -949,6 +947,27 @@
 			"scope": "source.cmake",
 			"settings": {
 				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "cpp doxygen @param documentation",
+			"scope": [
+				"storage.type.class.doxygen.cpp"
+			],
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic bold underline"
+			}
+		},
+		{
+			"name": "cpp doxygem documentation",
+			"scope": [
+				"punctuation.definition.comment.begin.documentation.cpp",
+				"punctuation.definition.comment.end.documentation.cpp"
+			],
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic"
 			}
 		},
 		// C# / CS
