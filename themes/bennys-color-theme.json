@@ -3120,6 +3120,14 @@
 				"foreground": "#5c6370"
 			}
 		},
+		// XML
+		{
+			"name": "xml text",
+			"scope": "text.xml",
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
 		// YAML
 		{
 			"name": "punctuation.definition.block.sequence.item.yaml",
