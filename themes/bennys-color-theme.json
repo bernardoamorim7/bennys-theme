@@ -762,7 +762,7 @@
 				// "variable.other.readwrite.c",
 				// "variable.other.readwrite.cpp",
 				"variable.parameter.preprocessor.c",
-				"meta.preprocessor.macro.c",
+				//"meta.preprocessor.macro.c",
 				"meta.parens.block.c",
 				"meta.block.c",
 				"variable.parameter.cpp",
@@ -833,7 +833,7 @@
 			}
 		},
 		{
-			"name": "c/cpp include define ifndef",
+			"name": "c/cpp include define ifndef endif if",
 			"scope": [
 				"keyword.control.directive.pragma.cpp",
 				"keyword.control.directive.include.cpp",
@@ -846,6 +846,7 @@
 				"keyword.control.directive.endif.cpp",
 				"keyword.control.directive.define.c",
 				"keyword.control.directive.conditional.c",
+				"keyword.control.directive.conditional.ifndef.cpp"
 			],
 			"settings": {
 				"foreground": "#BBB529"
@@ -986,6 +987,16 @@
 			"settings": {
 				"foreground": "#629755",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "c/cpp macro preprocessor",
+			"scope": [
+				"meta.preprocessor.macro.cpp",
+				"entity.name.function.preprocessor.cpp",
+			],
+			"settings": {
+				"foreground": "#4EADE5"
 			}
 		},
 		// C# / CS

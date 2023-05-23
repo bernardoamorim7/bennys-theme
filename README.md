@@ -41,6 +41,7 @@ Remember that Semantic Highlighting takes a bit to load, so if you don't see it 
 |                 TOML                 |     ✔️    |          ❌           |
 |                Unison                |     ✔️    |          ❌           |
 |                  Xi                  |     ✔️    |          ❌           |
+|                  XML                 |     ✔️    |          ❌           |
 |                 YAML                 |     ✔️    |          ❌           |
 
 ---

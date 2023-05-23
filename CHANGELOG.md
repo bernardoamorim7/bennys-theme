@@ -4,6 +4,11 @@ All notable changes to the "bennys-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## v0.0.16
+
+- Verified XML support
+- Better C/C++ support
+
 ## v0.0.15
 
 - Better XML support
