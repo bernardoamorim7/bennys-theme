@@ -226,7 +226,7 @@
 				"punctuation.definition.tag"
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -322,7 +322,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -589,7 +589,7 @@
 			"name": "Type Name",
 			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -643,7 +643,7 @@
 			"name": "Classes",
 			"scope": "entity.name.type.namespace",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -665,7 +665,7 @@
 			"name": "Class name",
 			"scope": "entity.name.class.identifier.namespace.type",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -679,7 +679,7 @@
 			"name": "Namespaces",
 			"scope": "entity.name.namespace",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -707,7 +707,7 @@
 				"entity.other.inherited-class",
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -739,7 +739,7 @@
 				"entity.name.function.call.cpp",
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -749,7 +749,7 @@
 				"support.function.console",
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -915,7 +915,7 @@
 			"name": "Type Name C",
 			"scope": "entity.name.type.c",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1011,7 +1011,7 @@
 			"name": "cs storage type",
 			"scope": "storage.type.cs",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1026,7 +1026,7 @@
 				"entity.name.variable.parameter.cs"
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1168,7 +1168,7 @@
 				"entity.global.clojure"
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1227,7 +1227,7 @@
 				"keyword.operator.assignment.go"
 			],
 			"settings": {
-				//"foreground": "#e5c07b"
+				//"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1304,7 +1304,7 @@
 				"storage.modifier.import.groovy"
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1356,7 +1356,7 @@
 				"support.variable.semantic.hlsl"
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1400,7 +1400,7 @@
 				"storage.type.object.array.java"
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1428,7 +1428,7 @@
 			"name": "java modifier.import",
 			"scope": "storage.modifier.import.java,storage.type.java,storage.type.generic.java",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1463,14 +1463,14 @@
 			"name": "Java Imports",
 			"scope": "import.storage.java",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
 			"name": "Java Storage",
 			"scope": "token.storage.type.java",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1541,7 +1541,7 @@
 			"name": "js/ts module",
 			"scope": "support.module.node,support.type.object.module,support.module.node",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1721,7 +1721,7 @@
 				"variable.other.class.ts"
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1937,7 +1937,7 @@
 				"source.makefile"
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -2000,7 +2000,7 @@
 			"name": "markup diff",
 			"scope": "markup.changed.diff",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -2056,7 +2056,7 @@
 			"name": "Bold",
 			"scope": "punctuation.definition.bold",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -2354,7 +2354,7 @@
 			"name": "use statement for other classes",
 			"scope": "support.other.namespace.use.php,support.other.namespace.use-as.php,entity.other.alias.php,meta.interface.php",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -2396,7 +2396,7 @@
 			"name": "php types",
 			"scope": "storage.type.php,meta.other.type.phpdoc.php,keyword.other.type.php,keyword.other.array.phpdoc.php",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -2974,7 +2974,7 @@
 				"support.type.vb.asp"
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		// TOML
@@ -3020,7 +3020,7 @@
 				"entity.name.function.xi"
 			],
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -3187,16 +3187,16 @@
 			"foreground": "#abb2bf"
 		},
 		"class:java": {
-			"foreground": "#e5c07b"
+			"foreground": "#FFC66D"
 		},
 		"enumMember:java": {
 			"foreground": "#9876AA"
 		},
 		"*.abstract:java": {
-			"foreground": "#e5c07b"
+			"foreground": "#FFC66D"
 		},
 		"*.typeArgument:java": {
-			"foreground": "#e5c07b"
+			"foreground": "#FFC66D"
 		},
 		"*.protected:java": {
 			"foreground": "#9876AA",
@@ -3207,7 +3207,7 @@
 			"fontStyle": "italic bold"
 		},
 		"method:java": {
-			"foreground": "#e5c07b"
+			"foreground": "#FFC66D"
 		},
 		"parameter:java": {
 			"foreground": "#abb2bf"
