@@ -75,7 +75,7 @@
 		"statusBar.border": "#1b1f23",
 		"statusBar.noFolderBackground": "#24292e",
 		"statusBar.debuggingBackground": "#ffab70",
-		"statusBar.debuggingForeground": "#fff",
+		"statusBar.debuggingForeground": "#e1e4e8",
 		"statusBarItem.prominentBackground": "#282e34",
 		"editorGroupHeader.tabsBackground": "#1f2428",
 		"editorGroupHeader.tabsBorder": "#1b1f23",
@@ -1161,6 +1161,15 @@
 				"foreground": "#abb2bf",
 			}
 		},
+		{
+			"name": "css variables",
+			"scope": [
+				"variable.css"
+			],
+			"settings": {
+				"foreground": "#9876AA"
+			}
+		},
 		// Clojure
 		{
 			"name": "Clojure globals",
@@ -1665,7 +1674,10 @@
 		},
 		{
 			"name": "js Doc",
-			"scope": "storage.type.class.jsdoc",
+			"scope": [
+				"storage.type.class.jsdoc",
+				"punctuation.definition.block.tag.jsdoc",
+			],
 			"settings": {
 				"foreground": "#629755",
 				"fontStyle": "italic bold underline"
@@ -2961,6 +2973,16 @@
 			"name": "sql database name",
 			"scope": [
 				"constant.other.database-name.sql"
+			],
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
+		// Svelte
+		{
+			"name": "svelte text",
+			"scope": [
+				"text.svelte"
 			],
 			"settings": {
 				"foreground": "#abb2bf",

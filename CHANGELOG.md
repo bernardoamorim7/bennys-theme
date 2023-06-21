@@ -4,6 +4,13 @@ All notable changes to the "bennys-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## v0.0.18
+
+- Better Debug Mode text visibility
+- Better CSS support
+- Better support for Javascript/Typescript
+- Better support for Svelte
+
 ## v0.0.17
 
 - Fix some inconsistencies across all languages (Functions primarily)
