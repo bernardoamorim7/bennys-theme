@@ -3299,40 +3299,40 @@
 		"method:python": {
 			"foreground": "#FFC66D"
 		},
-	},
-	// Rust Semantic Highlighting
-	"*.attribute:rust": {
-		"foreground": "#BBB529"
-	},
-	"lifetime:rust": {
-		"foreground": "#20999D"
-	},
-	"typeParameter:rust": {
-		"foreground": "#20999d"
-	},
-	"*.mutable:rust": {
-		"foreground": "#BCA5C4",
-		"underline": true,
-	},
-	"macro:rust": {
-		"foreground": "#4EADE5"
-	},
-	"macroBang:rust": {
-		"foreground": "#4EADE5"
-	},
-	"enumMember:rust": {
-		"foreground": "#9876AA"
-	},
-	"*.constant:rust": {
-		"foreground": "#9876AA"
-	},
-	"string:rust": {
-		"foreground": "#6A8759"
-	},
-	"unresolvedReference:rust": {
-		"foreground": "#9876AA"
-	},
-	"operator:rust": {
-		"foreground": "#abb2bf"
-	},
+		// Rust Semantic Highlighting
+		"*.attribute:rust": {
+			"foreground": "#BBB529"
+		},
+		"lifetime:rust": {
+			"foreground": "#20999D"
+		},
+		"typeParameter:rust": {
+			"foreground": "#20999d"
+		},
+		"*.mutable:rust": {
+			"foreground": "#BCA5C4",
+			"underline": true,
+		},
+		"macro:rust": {
+			"foreground": "#4EADE5"
+		},
+		"macroBang:rust": {
+			"foreground": "#4EADE5"
+		},
+		"enumMember:rust": {
+			"foreground": "#9876AA"
+		},
+		"*.constant:rust": {
+			"foreground": "#9876AA"
+		},
+		"string:rust": {
+			"foreground": "#6A8759"
+		},
+		"unresolvedReference:rust": {
+			"foreground": "#9876AA"
+		},
+		"operator:rust": {
+			"foreground": "#abb2bf"
+		},
+	}
 }
