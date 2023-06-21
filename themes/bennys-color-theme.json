@@ -2683,6 +2683,18 @@
 				"punctuation.separator.arguments.python",
 				"punctuation.separator.annotation.result.python",
 				"punctuation.section.function.begin.python",
+				"punctuation.section.class.begin.python",
+				"punctuation.separator.colon.python"
+			],
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
+		{
+			"name": "python unpacking operator",
+			"scope": [
+				"keyword.operator.unpacking.arguments.python",
+				"keyword.operator.unpacking.parameter.python",
 			],
 			"settings": {
 				"foreground": "#CC7832",
@@ -3278,7 +3290,10 @@
 			"foreground": "#abb2bf"
 		},
 		// Python Semantic Highlighting
-		"builtin:python": {
+		"builtinType:python": {
+			"foreground": "#8888C6"
+		},
+		"*.builtin:python": {
 			"foreground": "#8888C6"
 		},
 		"declaration:python": {
@@ -3290,7 +3305,7 @@
 		"magicFunction:python": {
 			"foreground": "#B200B2"
 		},
-		"decorator:python": {
+		"*.decorator:python": {
 			"foreground": "#BBB529"
 		},
 		"builtinConstant:python": {
