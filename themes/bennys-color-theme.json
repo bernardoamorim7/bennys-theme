@@ -1164,7 +1164,8 @@
 		{
 			"name": "css variables",
 			"scope": [
-				"variable.css"
+				"variable.css",
+				"variable.argument.css"
 			],
 			"settings": {
 				"foreground": "#9876AA"
@@ -1575,13 +1576,17 @@
 			}
 		},
 		{
-			"name": "js/ts Keyword",
+			"name": "js/ts Keyword operator",
 			"scope": [
 				"keyword.operator.expression.instanceof",
 				"keyword.operator.new",
 				"keyword.operator.ternary",
 				"keyword.operator.optional",
-				"keyword.operator.expression.keyof"
+				"keyword.operator.expression.keyof",
+				"keyword.operator.logical.js",
+				"keyword.operator.logical.ts",
+				"punctuation.accessor.optional.js",
+				"punctuation.accessor.optional.ts",
 			],
 			"settings": {
 				"foreground": "#CC7832"
@@ -1693,7 +1698,14 @@
 		},
 		{
 			"name": "js/ts punctuation",
-			"scope": "punctuation.terminator.statement.js,punctuation.separator.parameter.js,punctuation.separator.comma.js",
+			"scope": [
+				"punctuation.terminator.statement.js",
+				"punctuation.separator.parameter.js",
+				"punctuation.separator.comma.js",
+				"punctuation.terminator.statement.ts",
+				"punctuation.separator.parameter.ts",
+				"punctuation.separator.comma.ts",
+			],
 			"settings": {
 				"foreground": "#CC7832"
 			}
@@ -1931,6 +1943,26 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "js ts variable parameter",
+			"scope": [
+				"variable.parameter.js",
+				"variable.parameter.ts",
+			],
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
+		{
+			"name": "js ts variable readwrite alias",
+			"scope": [
+				"variable.other.readwrite.alias.js",
+				"variable.other.readwrite.alias.ts",
+			],
+			"settings": {
+				"foreground": "#F07178",
 			}
 		},
 		// Makefile
