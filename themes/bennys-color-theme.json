@@ -2677,6 +2677,17 @@
 				"foreground": "#A9B7C6"
 			}
 		},
+		{
+			"name": "python separator",
+			"scope": [
+				"punctuation.separator.arguments.python",
+				"punctuation.separator.annotation.result.python",
+				"punctuation.section.function.begin.python",
+			],
+			"settings": {
+				"foreground": "#CC7832",
+			}
+		},
 		// Regex
 		{
 			"name": "regexp constant character-class",
@@ -3267,7 +3278,7 @@
 			"foreground": "#abb2bf"
 		},
 		// Python Semantic Highlighting
-		"*.builtin:python": {
+		"builtin:python": {
 			"foreground": "#8888C6"
 		},
 		"declaration:python": {
@@ -3279,40 +3290,49 @@
 		"magicFunction:python": {
 			"foreground": "#B200B2"
 		},
-		// Rust Semantic Highlighting
-		"*.attribute:rust": {
+		"decorator:python": {
 			"foreground": "#BBB529"
 		},
-		"lifetime:rust": {
-			"foreground": "#20999D"
+		"builtinConstant:python": {
+			"foreground": "#CC7832"
 		},
-		"typeParameter:rust": {
-			"foreground": "#20999d"
+		"method:python": {
+			"foreground": "#FFC66D"
 		},
-		"*.mutable:rust": {
-			"foreground": "#BCA5C4",
-			"underline": true,
-		},
-		"macro:rust": {
-			"foreground": "#4EADE5"
-		},
-		"macroBang:rust": {
-			"foreground": "#4EADE5"
-		},
-		"enumMember:rust": {
-			"foreground": "#9876AA"
-		},
-		"*.constant:rust": {
-			"foreground": "#9876AA"
-		},
-		"string:rust": {
-			"foreground": "#6A8759"
-		},
-		"unresolvedReference:rust": {
-			"foreground": "#9876AA"
-		},
-		"operator:rust": {
-			"foreground": "#abb2bf"
-		},
-	}
+	},
+	// Rust Semantic Highlighting
+	"*.attribute:rust": {
+		"foreground": "#BBB529"
+	},
+	"lifetime:rust": {
+		"foreground": "#20999D"
+	},
+	"typeParameter:rust": {
+		"foreground": "#20999d"
+	},
+	"*.mutable:rust": {
+		"foreground": "#BCA5C4",
+		"underline": true,
+	},
+	"macro:rust": {
+		"foreground": "#4EADE5"
+	},
+	"macroBang:rust": {
+		"foreground": "#4EADE5"
+	},
+	"enumMember:rust": {
+		"foreground": "#9876AA"
+	},
+	"*.constant:rust": {
+		"foreground": "#9876AA"
+	},
+	"string:rust": {
+		"foreground": "#6A8759"
+	},
+	"unresolvedReference:rust": {
+		"foreground": "#9876AA"
+	},
+	"operator:rust": {
+		"foreground": "#abb2bf"
+	},
 }
