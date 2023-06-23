@@ -2,6 +2,10 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.0.22
+
+- Better Rust support
+
 ## v0.0.21
 
 - Better Python support

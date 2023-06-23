@@ -3349,5 +3349,8 @@
 		"operator:rust": {
 			"foreground": "#abb2bf"
 		},
+		"method:rust": {
+			"foreground": "#FFC66D"
+		},
 	}
 }
