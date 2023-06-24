@@ -999,6 +999,54 @@
 				"foreground": "#4EADE5"
 			}
 		},
+		{
+			"name": "c/cpp macro preprocessor variable",
+			"scope": [
+				"meta.preprocessor.macro.c",
+			],
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "c operators",
+			"scope": [
+				"keyword.operator.arithmetic.c",
+				"keyword.operator.increment.c",
+				"keyword.operator.decrement.c",
+				"keyword.operator.comparison.c",
+				"keyword.operator.assignment.c",
+				"keyword.operator.bitwise.shift.c",
+				"keyword.operator.bitwise.c",
+				"keyword.operator.logical.c",
+				"keyword.operator.assignment.compound.c",
+				"keyword.operator.c"
+			],
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "c cpp function parameters",
+			"scope": [
+				"meta.function.parameters.c",
+				"meta.function.parameters.cpp",
+				"variable.parameter.probably.c",
+				"variable.parameter.probably.cpp",
+			],
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "c function member",
+			"scope": [
+				"entity.name.function.member.c",
+			],
+			"settings": {
+				"foreground": "#FFC66D"
+			}
+		},
 		// C# / CS
 		{
 			"name": "parameter function ruby cs",
