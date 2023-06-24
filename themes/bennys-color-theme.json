@@ -969,24 +969,27 @@
 			}
 		},
 		{
-			"name": "cpp doxygen @param documentation",
+			"name": "c cpp doxygen documentation",
 			"scope": [
-				"storage.type.class.doxygen.cpp"
+				"punctuation.definition.comment.begin.documentation.cpp",
+				"punctuation.definition.comment.end.documentation.cpp",
+				"punctuation.definition.comment.begin.documentation.c",
+				"punctuation.definition.comment.end.documentation.c",
+			],
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "c cpp doxigen classes @",
+			"scope": [
+				"storage.type.class.doxygen.c",
+				"storage.type.class.doxygen.cpp",
 			],
 			"settings": {
 				"foreground": "#629755",
 				"fontStyle": "italic bold underline"
-			}
-		},
-		{
-			"name": "cpp doxygem documentation",
-			"scope": [
-				"punctuation.definition.comment.begin.documentation.cpp",
-				"punctuation.definition.comment.end.documentation.cpp"
-			],
-			"settings": {
-				"foreground": "#629755",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1045,6 +1048,15 @@
 			],
 			"settings": {
 				"foreground": "#FFC66D"
+			}
+		},
+		{
+			"name": "c variable parameter",
+			"scope": [
+				"variable.parameter.c",
+			],
+			"settings": {
+				"foreground": "#abb2bf"
 			}
 		},
 		// C# / CS
