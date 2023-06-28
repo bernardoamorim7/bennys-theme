@@ -2594,8 +2594,11 @@
 			}
 		},
 		{
-			"name": "punctuation.separator.parameters.python",
-			"scope": "punctuation.separator.element.python",
+			"name": "python separator",
+			"scope": [
+				"punctuation.separator.element.python",
+				"meta.function.parameters.python"
+			],
 			"settings": {
 				"foreground": "#CC7832"
 			}

@@ -2,6 +2,10 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## 0.0.25
+
+- Better Python support
+
 ## v0.0.24
 
 - Better C/C++ support
