@@ -2594,13 +2594,14 @@
 			}
 		},
 		{
-			"name": "python separator",
+			"name": "python operator",
 			"scope": [
-				"punctuation.separator.element.python",
-				"meta.function.parameters.python"
+				"keyword.operator.arithmetic.python",
+				"keyword.operator.assignment.python",
+				"keyword.operator.comparison.python",
 			],
 			"settings": {
-				"foreground": "#CC7832"
+				"foreground": "#abb2bf"
 			}
 		},
 		{
@@ -2747,7 +2748,9 @@
 				"punctuation.separator.annotation.result.python",
 				"punctuation.section.function.begin.python",
 				"punctuation.section.class.begin.python",
-				"punctuation.separator.colon.python"
+				"punctuation.separator.colon.python",
+				"punctuation.separator.element.python",
+				"meta.function.parameters.python",
 			],
 			"settings": {
 				"foreground": "#CC7832",
