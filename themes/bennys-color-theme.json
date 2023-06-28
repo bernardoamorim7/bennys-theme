@@ -580,7 +580,7 @@
 		},
 		{
 			"name": "Support",
-			"scope": "support.function,",
+			"scope": "support.function",
 			"settings": {
 				"foreground": "#FFC66D"
 			}
@@ -2751,6 +2751,7 @@
 				"punctuation.separator.colon.python",
 				"punctuation.separator.element.python",
 				"meta.function.parameters.python",
+				"punctuation.separator.parameters.python",
 			],
 			"settings": {
 				"foreground": "#CC7832",
@@ -3379,6 +3380,9 @@
 		},
 		"method:python": {
 			"foreground": "#FFC66D"
+		},
+		"operator:python": {
+			"foreground": "#abb2bf"
 		},
 		// Rust Semantic Highlighting
 		"*.attribute:rust": {

@@ -2,6 +2,11 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.0.27
+
+- Fix some bugs
+- Better Python support
+
 ## v0.0.26
 
 - Better Python support
