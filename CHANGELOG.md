@@ -2,6 +2,11 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.0.30
+
+- Editor Groups border fixed
+- Terminal tab border
+
 ## v0.0.29
 
 - Changed some workbench colors, mainly the borders

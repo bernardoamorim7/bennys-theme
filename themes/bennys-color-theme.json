@@ -146,7 +146,7 @@
 		// Editor Group Header
 		"editorGroupHeader.tabsBackground": "#1f2428",
 		"editorGroupHeader.tabsBorder": "#444d56",
-		"editorGroup.border": "#1b1f23",
+		"editorGroup.border": "#444d56",
 		// Diff Editor
 		"diffEditor.insertedTextBackground": "#28a74530",
 		"diffEditor.removedTextBackground": "#d73a4930",
@@ -167,6 +167,7 @@
 		// Terminal
 		"terminal.foreground": "#d1d5da",
 		"terminal.border": "#444d56",
+		"terminal.tab.activeBorder": "#1f6feb",
 		// Git
 		"gitDecoration.addedResourceForeground": "#34d058",
 		"gitDecoration.modifiedResourceForeground": "#79b8ff",
