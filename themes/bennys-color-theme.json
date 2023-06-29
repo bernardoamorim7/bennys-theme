@@ -83,10 +83,13 @@
 		"notificationsErrorIcon.foreground": "#ea4a5a",
 		"notificationsWarningIcon.foreground": "#ffab70",
 		"notificationsInfoIcon.foreground": "#79b8ff",
+		// Picker Group
 		"pickerGroup.border": "#444d56",
 		"pickerGroup.foreground": "#e1e4e8",
+		// Quick Input
 		"quickInput.background": "#24292e",
 		"quickInput.foreground": "#e1e4e8",
+		// Status Bar
 		"statusBar.foreground": "#d1d5da",
 		"statusBar.background": "#24292e",
 		"statusBar.border": "#444d56",
@@ -102,7 +105,7 @@
 		"tab.hoverBackground": "#24292e",
 		"tab.unfocusedHoverBackground": "#24292e",
 		"tab.border": "#444d56",
-		"tab.unfocusedActiveBorderTop": "#1b1f23",
+		"tab.unfocusedActiveBorderTop": "#ffab70",
 		"tab.activeBorder": "#24292e",
 		"tab.unfocusedActiveBorder": "#24292e",
 		"tab.activeBorderTop": "#005cc5",

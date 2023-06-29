@@ -2,6 +2,10 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.0.31
+
+- Changed "tab.unfocusedActiveBorderTop"
+
 ## v0.0.30
 
 - Editor Groups border fixed
