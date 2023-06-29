@@ -2,6 +2,11 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.0.29
+
+- Changed some workbench colors, mainly the borders
+- Comments for better readability and finding things in the theme file
+
 ## v0.0.28
 
 - Changed some workbench colors
