@@ -146,6 +146,9 @@
 		"editor.stackFrameHighlightBackground": "#a707",
 		"editor.focusedStackFrameHighlightBackground": "#b808",
 		"editorWidget.border": "#444d56",
+		"editorInlayHint.background": "#3392FF44",
+		"editorInlayHint.parameterBackground": "#3392FF44",
+		"editorInlayHint.typeBackground": "#3392FF44",
 		// Editor Group Header
 		"editorGroupHeader.tabsBackground": "#1f2428",
 		"editorGroupHeader.tabsBorder": "#444d56",
@@ -1414,6 +1417,15 @@
 			],
 			"settings": {
 				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "go variable.other.assignment.go",
+			"scope": [
+				"variable.other.assignment.go"
+			],
+			"settings": {
+				"foreground": "#abb2bf"
 			}
 		},
 		// Groovy
@@ -3362,6 +3374,29 @@
 	"semanticHighlighting": false,
 	// Semantic Highlighting Token Colors
 	"semanticTokenColors": {
+		// Go Semantic Highlighting
+		"function:go": {
+			"foreground": "#FFC66D"
+		},
+		"namespace:go": {
+			"foreground": "#C3C3E4",
+			//"fontStyle": "italic"
+		},
+		"parameter:go": {
+			"foreground": "#abb2bf"
+		},
+		"definition:go": {
+			"foreground": "#abb2bf"
+		},
+		"variable:go": {
+			"foreground": "#abb2bf"
+		},
+		"operator:go": {
+			"foreground": "#abb2bf"
+		},
+		"defaultLibrary:go": {
+			"foreground": "#8888C6"
+		},
 		// Java Semantic Highlighting
 		"typeParameter:java": {
 			"foreground": "#507874"

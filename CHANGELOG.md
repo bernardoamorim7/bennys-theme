@@ -2,6 +2,11 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.0.32
+
+- Better Go support (using Semantic Highlighting)
+- Fixed Inlay Hints
+
 ## v0.0.31
 
 - Changed "tab.unfocusedActiveBorderTop"

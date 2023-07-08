@@ -22,7 +22,7 @@ Remember that Semantic Highlighting takes a bit to load, so if you don't see it 
 |             CoffeeScript             |     ✔️    |          ❌           |
 |          Docker / Dockerfile         |     ✔️    |          ❌           |
 |                Elixir                |     ✔️    |          ❌           |
-|                  Go                  |     ✔️    |          ❌           |
+|                  Go                  |     ✔️    |          ✔️           |
 |                Groovy                |     ✔️    |          ❌           |
 |                Haskell               |     ✔️    |          ❌           |
 |                 HLSL                 |     ✔️    |          ❌           |
