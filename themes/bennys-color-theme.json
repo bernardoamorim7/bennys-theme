@@ -146,9 +146,9 @@
 		"editor.stackFrameHighlightBackground": "#a707",
 		"editor.focusedStackFrameHighlightBackground": "#b808",
 		"editorWidget.border": "#444d56",
-		"editorInlayHint.background": "#3392FF44",
-		"editorInlayHint.parameterBackground": "#3392FF44",
-		"editorInlayHint.typeBackground": "#3392FF44",
+		"editorInlayHint.background": "#0377fc52",
+		"editorInlayHint.parameterBackground": "#0377fc52",
+		"editorInlayHint.typeBackground": "#0377fc52",
 		// Editor Group Header
 		"editorGroupHeader.tabsBackground": "#1f2428",
 		"editorGroupHeader.tabsBorder": "#444d56",
@@ -1420,12 +1420,31 @@
 			}
 		},
 		{
-			"name": "go variable.other.assignment.go",
+			"name": "go variables variable.other.assignment.go",
 			"scope": [
-				"variable.other.assignment.go"
+				"variable.other.assignment.go",
+				"entity.name.variable",
 			],
 			"settings": {
 				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "go imports",
+			"scope": [
+				"entity.name.import.go"
+			],
+			"settings": {
+				"foreground": "#C3C3E4"
+			}
+		},
+		{
+			"name": "go storage.type.go",
+			"scope": [
+				"storage.type.go",
+			],
+			"settings": {
+				"foreground": "#CC7832"
 			}
 		},
 		// Groovy
@@ -3388,6 +3407,9 @@
 		"definition:go": {
 			"foreground": "#abb2bf"
 		},
+		"type:go": {
+			"foreground": "#FFC66D"
+		},
 		"variable:go": {
 			"foreground": "#abb2bf"
 		},
@@ -3396,6 +3418,9 @@
 		},
 		"defaultLibrary:go": {
 			"foreground": "#8888C6"
+		},
+		"*.readonly:go": {
+			"foreground": "#9876AA"
 		},
 		// Java Semantic Highlighting
 		"typeParameter:java": {
