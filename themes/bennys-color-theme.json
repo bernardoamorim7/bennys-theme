@@ -3416,7 +3416,7 @@
 		"operator:go": {
 			"foreground": "#abb2bf"
 		},
-		"defaultLibrary:go": {
+		"*.defaultLibrary:go": {
 			"foreground": "#8888C6"
 		},
 		"*.readonly:go": {
