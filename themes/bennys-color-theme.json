@@ -1344,6 +1344,13 @@
 		},
 		// Go / Golang
 		{
+			"name": "go source",
+			"scope": "source.go",
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
+		{
 			"name": "go operator",
 			"scope": [
 				"keyword.operator.assignment.go"
@@ -1387,7 +1394,7 @@
 				"support.function.go"
 			],
 			"settings": {
-				"foreground": "#B09D79"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
@@ -1442,9 +1449,36 @@
 			"name": "go storage.type.go",
 			"scope": [
 				"storage.type.go",
+				"storage.type.string.go",
+				"storage.type.numeric.go",
+				"storage.type.boolean.go",
+				"storage.type.byte.go",
+				"storage.type.rune.go",
+				"storage.type.uintptr.go",
 			],
 			"settings": {
-				"foreground": "#CC7832"
+				"foreground": "#8888C6"
+			}
+		},
+		{
+			"name": "go constant",
+			"scope": "constant.language.go",
+			"settings": {
+				"foreground": "#9876AA",
+			}
+		},
+		{
+			"name": "go runes",
+			"scope": "constant.other.rune.go",
+			"settings": {
+				"foreground": "#629755",
+			}
+		},
+		{
+			"name": "go function builtin",
+			"scope": "support.function.builtin.go",
+			"settings": {
+				"foreground": "#8888C6",
 			}
 		},
 		// Groovy
