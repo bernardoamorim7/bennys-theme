@@ -2699,6 +2699,39 @@
 				"foreground": "#BE5046"
 			}
 		},
+		{
+			"name": "php punctuation",
+			"scope": [
+				"punctuation.terminator.expression.php",
+				"punctuation.separator.delimiter.php",
+				"punctuation.definition.variable.php",
+				"keyword.operator.string.php",
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "php variables",
+			"scope": [
+				"variable.other.php"
+			],
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
+		{
+			"name": "php operators",
+			"scope": [
+				"keyword.operator.logical.php",
+				"keyword.operator.arithmetic.php",
+				"keyword.operator.comparison.php",
+
+			],
+			"settings": {
+				"foreground": "#abb2bf",
+			}
+		},
 		// Python
 		{
 			"name": "support.variable.magic.python",

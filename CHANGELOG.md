@@ -2,6 +2,10 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.0.36
+
+- Better PHP support
+
 ## v0.0.35
 
 - Better Go Support
