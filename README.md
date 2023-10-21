@@ -20,6 +20,7 @@ Remember that Semantic Highlighting takes a bit to load, so if you don't see it 
 |                  CSS                 |     ✔️    |          ❌           |
 |                Closuje               |     ✔️    |          ❌           |
 |             CoffeeScript             |     ✔️    |          ❌           |
+|            Dart / Flutter            |     ✔️    |          ✔️           |
 |          Docker / Dockerfile         |     ✔️    |          ❌           |
 |                Elixir                |     ✔️    |          ❌           |
 |                  Go                  |     ✔️    |          ✔️           |

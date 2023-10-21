@@ -8,7 +8,7 @@
     "url": "https://github.com/bernardoamorim7/bennys-theme"
   },
   "icon": "icon.ico",
-  "version": "0.0.36",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.78.0"
   },
@@ -21,6 +21,16 @@
         "label": "Benny's Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/bennys-color-theme.json"
+      },
+      {
+        "label": "Benny's Theme Adwaita Light",
+        "uiTheme": "vs",
+        "path": "./themes/bennys-color-theme-adwaita-light.json"
+      },
+      {
+        "label": "Benny's Theme Adwaita Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bennys-color-theme-adwaita-dark.json"
       }
     ],
     "productIconThemes": [

@@ -9,7 +9,6 @@
 		"descriptionForeground": "#959da5",
 		"errorForeground": "#f97583",
 		"widget.border": "#444d56",
-		"interactiveEditor.border": "#444d56",
 		// Text
 		"textLink.foreground": "#79b8ff",
 		"textLink.activeForeground": "#c8e1ff",
@@ -122,8 +121,8 @@
 		"editor.lineHighlightBackground": "#2b3036",
 		"editorLineNumber.foreground": "#444d56",
 		"editorLineNumber.activeForeground": "#e1e4e8",
-		"editorIndentGuide.background": "#2f363d",
-		"editorIndentGuide.activeBackground": "#444d56",
+		"editorIndentGuide.background1": "#2f363d",
+		"editorIndentGuide.activeBackground1": "#444d56",
 		"editorWhitespace.foreground": "#444d56",
 		"editorCursor.foreground": "#c8e1ff",
 		"editor.findMatchBackground": "#ffd33d44",
@@ -445,7 +444,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#CC7832"
 			}
 		},
 		{
@@ -1320,6 +1319,107 @@
 			],
 			"settings": {
 				"foreground": "#e06c75"
+			}
+		},
+		// Dart, Flutter
+		{
+			"name": "Dart, Flutter",
+			"scope": [
+				"source.dart"
+			],
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "dart punctuation",
+			"scope": [
+				"punctuation.terminator.dart",
+				"punctuation.comma.dart",
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "dart operators",
+			"scope": [
+				"keyword.operator.logical",
+				"keyword.operator.closure.dart",
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "dart annotation",
+			"scope": [
+				"storage.type.annotation.dart",
+			],
+			"settings": {
+				"foreground": "#BBB529"
+			}
+		},
+		{
+			"name": "dart name type",
+			"scope": [
+				"entity.name.type.dart"
+			],
+			"settings": {
+				"foreground": "#BBB529"
+			}
+		},
+		{
+			"name": "dart keyword",
+			"scope": "keyword.dart",
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "dart escape",
+			"scope": [
+				"constant.character.escape.dart",
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "dart docs",
+			"scope": [
+				"comment.block.documentation.dart",
+			],
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "dart class",
+			"scope": [
+				"support.class.dart",
+			],
+			"settings": {
+				"foreground": "#FFC66D"
+			}
+		},
+		{
+			"name": "dart interpolated string",
+			"scope": [
+				"string.interpolated.expression.dart",
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "dart variable.parameter.dart",
+			"scope": [
+				"variable.parameter.dart",
+			],
+			"settings": {
+				"foreground": "#abb2bf"
 			}
 		},
 		// Docker, dockerfile
@@ -2726,10 +2826,19 @@
 				"keyword.operator.logical.php",
 				"keyword.operator.arithmetic.php",
 				"keyword.operator.comparison.php",
-
 			],
 			"settings": {
 				"foreground": "#abb2bf",
+			}
+		},
+		{
+			"name": "php docstrings",
+			"scope": [
+				"comment.block.documentation.phpdoc.php",
+			],
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "bold italic"
 			}
 		},
 		// Python
@@ -2849,7 +2958,7 @@
 			"name": "DocString",
 			"scope": "string.quoted.docstring.multi.python",
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "italic bold",
 				"foreground": "#629755"
 			}
 		},
@@ -3460,6 +3569,42 @@
 	"semanticHighlighting": false,
 	// Semantic Highlighting Token Colors
 	"semanticTokenColors": {
+		// Dart / Flutter Semantic Highlighting
+		"property:dart": {
+			"foreground": "#9876AA"
+		},
+		"*.annotation:dart": {
+			"foreground": "#BBB529"
+		},
+		"annotation:dart": {
+			"foreground": "#BBB529"
+		},
+		"parameter:dart": {
+			"foreground": "#abb2bf"
+		},
+		"*.label:dart": {
+			"foreground": "#AA4926"
+		},
+		"class:dart": {
+			"foreground": "#c3c3e4"
+		},
+		"*.constructor:dart": {
+			"foreground": "#FFC66D"
+		},
+		"*.declaration:dart": {
+			"foreground": "#abb2bf"
+		},
+		"comparison:dart": {
+			"foreground": "#abb2bf"
+		},
+		"*.documentation:dart": {
+			"foreground": "#6A8759",
+			"bold": true,
+			"italic": true
+		},
+		"method:dart": {
+			"foreground": "#FFC66D"
+		},
 		// Go Semantic Highlighting
 		"function:go": {
 			"foreground": "#FFC66D"

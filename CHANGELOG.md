@@ -2,6 +2,13 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.1.0
+
+- Added support for Dart and Flutter
+- Added Adwaita Light and Adwaita Dark variants of the theme
+- Better PHP support
+- Better Python support
+
 ## v0.0.36
 
 - Better PHP support
