@@ -2,6 +2,10 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.1.3
+
+- Fix extension shipping with `node_modules` folder
+
 ## v0.1.2
 
 - Better PHP support
