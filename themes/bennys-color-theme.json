@@ -2872,7 +2872,8 @@
 			"name": "php constant other",
 			"scope": [
 				"constant.other.php",
-				"constant.other.class.php"
+				"constant.other.class.php",
+				"support.constant.ext.php",
 			],
 			"settings": {
 				"foreground": "#9876AA"

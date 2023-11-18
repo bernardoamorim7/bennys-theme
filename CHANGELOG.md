@@ -2,6 +2,11 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.1.2
+
+- Better PHP support
+- Fix `package.json` file and remove `package-lock.json` file
+
 ## v0.1.1
 
 - Better PHP support
