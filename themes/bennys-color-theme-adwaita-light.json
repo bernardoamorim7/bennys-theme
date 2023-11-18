@@ -2584,7 +2584,11 @@
         },
         {
             "name": "php types",
-            "scope": "storage.type.php,meta.other.type.phpdoc.php,keyword.other.type.php,keyword.other.array.phpdoc.php",
+            "scope": [
+                "storage.type.php",
+                "meta.other.type.phpdoc.php",
+                "keyword.other.array.phpdoc.php"
+            ],
             "settings": {
                 "foreground": "#FFC66D"
             }
@@ -2647,7 +2651,10 @@
         },
         {
             "name": "php heredoc/nowdoc",
-            "scope": "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
+            "scope": [
+                "keyword.operator.heredoc.php",
+                "keyword.operator.nowdoc.php"
+            ],
             "settings": {
                 "foreground": "#CC7832"
             }
@@ -2672,12 +2679,14 @@
             }
         },
         {
-            "name": "php punctuation",
+            "name": "php punctuation and keywords",
             "scope": [
                 "punctuation.terminator.expression.php",
                 "punctuation.separator.delimiter.php",
                 "punctuation.definition.variable.php",
                 "keyword.operator.string.php",
+                "keyword.operator.null-coalescing.php",
+                "keyword.operator.class.php"
             ],
             "settings": {
                 "foreground": "#CC7832"
@@ -2713,10 +2722,70 @@
                 "fontStyle": "bold italic"
             }
         },
+        {
+            "name": "php docstrins keyword",
+            "scope": "keyword.other.phpdoc.php",
+            "settings": {
+                "foreground": "#629755",
+                "fontStyle": "italic bold underline",
+            }
+        },
+        {
+            "name": "php globals",
+            "scope": [
+                "variable.other.global.php",
+                "variable.other.global.safer.php",
+            ],
+            "settings": {
+                "foreground": "#CC7832"
+            }
+        },
+        {
+            "name": "php constant other",
+            "scope": [
+                "constant.other.php",
+                "constant.other.class.php"
+            ],
+            "settings": {
+                "foreground": "#9876AA"
+            }
+        },
+        {
+            "name": "php echo output",
+            "scope": [
+                "support.function.construct.output.php"
+            ],
+            "settings": {
+                "foreground": "#CC7832"
+            }
+        },
+        {
+            "name": "php builtin class",
+            "scope": "support.class.builtin.php",
+            "settings": {
+                "foreground": "#8888C6"
+            }
+        },
+        {
+            "name": "php exception",
+            "scope": "support.class.exception.php",
+            "settings": {
+                "foreground": "#FFC66D"
+            }
+        },
+        {
+            "name": "php types",
+            "scope": "keyword.operator.type.php",
+            "settings": {
+                "foreground": "#CC7832"
+            }
+        },
         // Python
         {
             "name": "support.variable.magic.python",
-            "scope": "support.variable.magic.python",
+            "scope": [
+                "support.variable.magic.python",
+            ],
             "settings": {
                 "foreground": "#B200B2"
             }

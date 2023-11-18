@@ -9,7 +9,7 @@
         }
       ],
       "weight": "normal",
-      "style": "normal",
+      "style": "normal"
     }
   ],
   "iconDefinitions": {
@@ -135,6 +135,6 @@
     },
     "symbol-keyword": {
       "fontCharacter": "\\EA62"
-    },
+    }
   }
 }

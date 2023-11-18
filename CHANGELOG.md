@@ -2,6 +2,10 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.1.1
+
+- Better PHP support
+
 ## v0.1.0
 
 - Added support for Dart and Flutter
