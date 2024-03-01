@@ -1881,7 +1881,7 @@
 			"name": "Compound Assignment Operators js/ts",
 			"scope": "keyword.operator.assignment.compound.js,keyword.operator.assignment.compound.ts",
 			"settings": {
-				"foreground": "#8888C6"
+				"foreground": "#abb2bf"
 			}
 		},
 		{
@@ -2058,7 +2058,7 @@
 				"keyword.operator.assignment"
 			],
 			"settings": {
-				// "foreground": "#8888C6"
+				"foreground": "#abb2bf"
 			}
 		},
 		{
@@ -2109,6 +2109,21 @@
 			],
 			"settings": {
 				"foreground": "#F07178",
+			}
+		},
+		{
+			"name": "js ts variable other readwrite",
+			"scope": "variable.other.readwrite.js",
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "js ts variable object",
+			"scope": "variable.other.object.js",
+			"settings": {
+				"foreground": "#abb2bf",
+				"fontStyle": "italic bold",
 			}
 		},
 		// Makefile
