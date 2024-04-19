@@ -2,6 +2,11 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.1.5
+
+- Added method icon
+- Better SQL support
+
 ## v0.1.4
 
 - Better JavaScript and TypeScript support
