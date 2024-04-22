@@ -2,6 +2,12 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.1.6
+
+- Added HL7 support (needs [HL7Tools](https://marketplace.visualstudio.com/items?itemName=RobHolme.hl7tools) extension)
+- Added GDScript support (needs [godot-tools](https://marketplace.visualstudio.com/items?itemName=geequlim.godot-tools) extension)
+- Better Python support
+
 ## v0.1.5
 
 - Added method icon

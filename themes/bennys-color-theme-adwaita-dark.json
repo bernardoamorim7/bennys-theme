@@ -1314,6 +1314,39 @@
 				"foreground": "#8888C6"
 			}
 		},
+		// GDScript
+		{
+			"name": "GDScript",
+			"scope": "source.gdscript",
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "GDScript variable",
+			"scope": [
+				"variable.other.gdscript",
+				"variable.parameter.function.language.gdscript",
+			],
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"name": "GDScript constant",
+			"scope": "constant.language.gdscript",
+			"settings": {
+				"foreground": "#abb2bf",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "GDScript decorator",
+			"scope": "entity.name.function.decorator.gdscript",
+			"settings": {
+				"foreground": "#BBB529"
+			}
+		},
 		// Go / Golang
 		{
 			"name": "go source",
@@ -1503,6 +1536,23 @@
 			"scope": "storage.type.haskell",
 			"settings": {
 				"foreground": "#CC7832"
+			}
+		},
+		// HL7
+		{
+			"name": "HL7 segment",
+			"scope": [
+				"keyword.operator.hl7"
+			],
+			"settings": {
+				"foreground": "#9876AA"
+			}
+		},
+		{
+			"name": "hl7 text",
+			"scope": "text.hl7",
+			"settings": {
+				"foreground": "#abb2bf"
 			}
 		},
 		// HLSL
@@ -2978,6 +3028,13 @@
 			],
 			"settings": {
 				"foreground": "#CC7832",
+			}
+		},
+		{
+			"name": "python module",
+			"scope": "entity.name.namespace",
+			"settings": {
+				"foreground": "#c3c3e4"
 			}
 		},
 		// Regex
