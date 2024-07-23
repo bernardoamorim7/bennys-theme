@@ -1112,7 +1112,7 @@
 		},
 		// C# / CS
 		{
-			"name": "cs punctuation",
+			"name": "cs, c# punctuation",
 			"scope": [
 				"punctuation.terminator.statement.cs",
 				"punctuation.separator.question-mark.cs",
@@ -1124,17 +1124,20 @@
 			}
 		},
 		{
-			"name": "cs keywords",
+			"name": "cs, c# keywords",
 			"scope": [
 				"keyword.operator.expression.await.cs",
-				"keyword.operator.expression.new.cs"
+				"keyword.operator.expression.new.cs",
+				"keyword.operator.expression.as.cs",
+				"keyword.operator.expression.pattern.is.cs",
+				"keyword.operator.expression.pattern.combinator.not.cs"
 			],
 			"settings": {
 				"foreground": "#CC7832"
 			}
 		},
 		{
-			"name": "cs variables, parameter function cs",
+			"name": "cs, c# variables, parameter function cs",
 			"scope": [
 				"function.parameter.cs",
 				"entity.name.variable.parameter.cs",
@@ -1146,7 +1149,7 @@
 			}
 		},
 		{
-			"name": "cs storage type",
+			"name": "cs, c# storage type",
 			"scope": "storage.type.cs",
 			"settings": {
 				"foreground": "#FFC66D"
@@ -1161,7 +1164,7 @@
 			}
 		},
 		{
-			"name": "cs label",
+			"name": "cs, c# label",
 			"scope": [
 				"entity.name.label.cs",
 			],
@@ -1170,7 +1173,7 @@
 			}
 		},
 		{
-			"name": "cs namespace",
+			"name": "cs, c# namespace",
 			"scope": [
 				"entity.name.type.namespace.cs"
 			],
@@ -1179,7 +1182,7 @@
 			}
 		},
 		{
-			"name": "cs object",
+			"name": "cs, c# object",
 			"scope": "variable.other.object.cs",
 			"settings": {
 				"foreground": "#abb2bf",
@@ -1187,7 +1190,7 @@
 			}
 		},
 		{
-			"name": "cs object property",
+			"name": "cs, c# object property",
 			"scope": "variable.other.object.property.cs",
 			"settings": {
 				"foreground": "#9876AA",

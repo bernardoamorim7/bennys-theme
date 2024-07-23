@@ -2,6 +2,10 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.2.1
+
+- Better C# support
+
 ## v0.2.0
 
 - **Much** better C# support
