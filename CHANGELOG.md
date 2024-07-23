@@ -2,6 +2,11 @@
 
 All notable changes to the "bennys-theme" extension will be documented in this file.
 
+## v0.2.0
+
+- **Much** better C# support
+- Removed `Benny's Adwaita Light Theme` as it was not being used by me and it's too much of a hassle to maintain two themes right now
+
 ## v0.1.6
 
 - Added HL7 support (needs [HL7Tools](https://marketplace.visualstudio.com/items?itemName=RobHolme.hl7tools) extension)

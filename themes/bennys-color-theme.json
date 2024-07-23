@@ -1112,8 +1112,35 @@
 		},
 		// C# / CS
 		{
-			"name": "parameter function ruby cs",
-			"scope": "function.parameter.ruby, function.parameter.cs",
+			"name": "cs punctuation",
+			"scope": [
+				"punctuation.terminator.statement.cs",
+				"punctuation.separator.question-mark.cs",
+				"keyword.operator.arrow.cs",
+				"punctuation.separator.comma.cs"
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "cs keywords",
+			"scope": [
+				"keyword.operator.expression.await.cs",
+				"keyword.operator.expression.new.cs"
+			],
+			"settings": {
+				"foreground": "#CC7832"
+			}
+		},
+		{
+			"name": "cs variables, parameter function cs",
+			"scope": [
+				"function.parameter.cs",
+				"entity.name.variable.parameter.cs",
+				"variable.other.readwrite.cs",
+				"entity.name.variable.local.cs"
+			],
 			"settings": {
 				"foreground": "#abb2bf"
 			}
@@ -1126,26 +1153,11 @@
 			}
 		},
 		{
-			"name": "cs local variable",
-			"scope": "entity.name.variable.local.cs",
-			"settings": {
-				"foreground": "#e06c75"
-			}
-		},
-		{
-			"scope": [
-				"entity.name.variable.parameter.cs"
-			],
-			"settings": {
-				"foreground": "#FFC66D"
-			}
-		},
-		{
 			"scope": [
 				"entity.name.variable.field.cs"
 			],
 			"settings": {
-				"foreground": "#e06c75"
+				"foreground": "#abb2bf"
 			}
 		},
 		{
@@ -1155,6 +1167,31 @@
 			],
 			"settings": {
 				"foreground": "#9876AA"
+			}
+		},
+		{
+			"name": "cs namespace",
+			"scope": [
+				"entity.name.type.namespace.cs"
+			],
+			"settings": {
+				"foreground": "#c3c3e4"
+			}
+		},
+		{
+			"name": "cs object",
+			"scope": "variable.other.object.cs",
+			"settings": {
+				"foreground": "#abb2bf",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "cs object property",
+			"scope": "variable.other.object.property.cs",
+			"settings": {
+				"foreground": "#9876AA",
+				"fontStyle": "italic"
 			}
 		},
 		// CSS

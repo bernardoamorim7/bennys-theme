@@ -12,38 +12,40 @@ Remember that Semantic Highlighting takes a bit to load, so if you don't see it 
 ## Languages
 
 |               Language               | Supported | Semantic Highlighting |
-|:------------------------------------:|:---------:|:---------------------:|
-|                   C                  |     ✔️    |          ❌           |
-|                  C++                 |     ✔️    |          ❌           |
-|                  CMake               |     ✔️    |          ❌           |
-|                  C#                  |     ✔️    |          ❌           |
-|                  CSS                 |     ✔️    |          ❌           |
-|                Closuje               |     ✔️    |          ❌           |
-|             CoffeeScript             |     ✔️    |          ❌           |
-|            Dart / Flutter            |     ✔️    |          ✔️           |
-|          Docker / Dockerfile         |     ✔️    |          ❌           |
-|                Elixir                |     ✔️    |          ❌           |
-|                  Go                  |     ✔️    |          ✔️           |
-|                Groovy                |     ✔️    |          ❌           |
-|                Haskell               |     ✔️    |          ❌           |
-|                 HLSL                 |     ✔️    |          ❌           |
-|                 HTML                 |     ✔️    |          ❌           |
-|                  ini                 |     ✔️    |          ❌           |
-|                 Java                 |     ✔️    |          ✔️           |
-| JavaScript / TypeScript / JSX / JSON |     ✔️    |          ❌           |
-|               Makefile               |     ✔️    |          ❌           |
-|               Markdown               |     ✔️    |          ❌           |
-|                  PHP                 |     ✔️    |          ❌           |
-|                Python                |     ✔️    |          ✔️           |
-|                 Ruby                 |     ✔️    |          ❌           |
-|                 Rust                 |     ✔️    |          ✔️           |
-|                  SQL                 |     ✔️    |          ❌           |
-|                 Swift                |     ✔️    |          ❌           |
-|                 TOML                 |     ✔️    |          ❌           |
-|                Unison                |     ✔️    |          ❌           |
-|                  Xi                  |     ✔️    |          ❌           |
-|                  XML                 |     ✔️    |          ❌           |
-|                 YAML                 |     ✔️    |          ❌           |
+| :----------------------------------: | :-------: | :-------------------: |
+|                  C                   |     ✔️     |           ❌           |
+|                 C++                  |     ✔️     |           ❌           |
+|                CMake                 |     ✔️     |           ❌           |
+|                  C#                  |     ✔️     |           ❌           |
+|                 CSS                  |     ✔️     |           ❌           |
+|               Closuje                |     ✔️     |           ❌           |
+|             CoffeeScript             |     ✔️     |           ❌           |
+|            Dart / Flutter            |     ✔️     |           ✔️           |
+|         Docker / Dockerfile          |     ✔️     |           ❌           |
+|                Elixir                |     ✔️     |           ❌           |
+|               GDScript               |     ✔️     |           ❌           |
+|                  Go                  |     ✔️     |           ✔️           |
+|                Groovy                |     ✔️     |           ❌           |
+|               Haskell                |     ✔️     |           ❌           |
+|                 HL7                  |     ✔️     |           ❌           |
+|                 HLSL                 |     ✔️     |           ❌           |
+|                 HTML                 |     ✔️     |           ❌           |
+|                 ini                  |     ✔️     |           ❌           |
+|                 Java                 |     ✔️     |           ✔️           |
+| JavaScript / TypeScript / JSX / JSON |     ✔️     |           ❌           |
+|               Makefile               |     ✔️     |           ❌           |
+|               Markdown               |     ✔️     |           ❌           |
+|                 PHP                  |     ✔️     |           ❌           |
+|                Python                |     ✔️     |           ✔️           |
+|                 Ruby                 |     ✔️     |           ❌           |
+|                 Rust                 |     ✔️     |           ✔️           |
+|                 SQL                  |     ✔️     |           ❌           |
+|                Swift                 |     ✔️     |           ❌           |
+|                 TOML                 |     ✔️     |           ❌           |
+|                Unison                |     ✔️     |           ❌           |
+|                  Xi                  |     ✔️     |           ❌           |
+|                 XML                  |     ✔️     |           ❌           |
+|                 YAML                 |     ✔️     |           ❌           |
 
 ---
 
