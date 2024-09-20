@@ -1002,7 +1002,8 @@
 				"keyword.operator.expression.new.cs",
 				"keyword.operator.expression.as.cs",
 				"keyword.operator.expression.pattern.is.cs",
-				"keyword.operator.expression.pattern.combinator.not.cs"
+				"keyword.operator.expression.pattern.combinator.not.cs",
+				"keyword.operator.null-conditional.cs"
 			],
 			"settings": {
 				"foreground": "#CC7832"
